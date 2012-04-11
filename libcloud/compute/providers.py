@@ -114,7 +114,7 @@ DRIVERS = {
     Provider.JOYENT:
         ('libcloud.compute.drivers.joyent', 'JoyentNodeDriver'),
     Provider.VCLOUD:
-        ('libcloud.drivers.vcloud', 'VCloudNodeDriver'),
+        ('libcloud.compute.drivers.vcloud', 'VCloudNodeDriver'),
 }
 
 
